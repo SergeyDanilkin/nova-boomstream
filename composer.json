@@ -1,0 +1,23 @@
+{
+    "name": "dsi1990/nova-boomstream",
+    "description": "Nova field for upload video to boomstream",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.5",
+        "phpunit/phpunit": "^10.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dsi1990\\NovaBoomstream\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Danilkin"
+        }
+    ]
+}
